@@ -1,0 +1,209 @@
+/* ------------------Style css 2, supplémentaire appliqué avec Bootstrap-------------------------------*/
+header {
+	background: #cbb64dfa;
+	color: black;
+}
+main {
+	color: white;
+}
+
+.card {
+	color: black;
+}
+
+footer {
+	background: #cbb64dfa;
+	color: white;
+}
+footer a {
+	color:black;
+	margin: 15px;
+}
+/*    survol du widget panier    
+.dropdown:hover > #cart-dropdown {
+	display: block;
+}
+
+
+/*---------------------------- Style css 1, avant mise en place de Bootstap 4 ---------------------------
+/*---------------------------- Les médias queries pour gérer le responsive --------------------------------------
+ @media screen and (min-width: 768px) {
+	/* For desktop: 
+}
+  @media screen and (min-width: 600px) {
+	/* For tablets: 
+}
+  @media screen and (max-width: 768px) {
+	/* For mobile phones: 
+	
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(pacifico-webfont.eot);
+    src: url(pacifico-webfont.eot?#iefix) format(embedded-opentype),
+	     url(pacifico-webfont.woff) format(woff),
+	     font-weight(normal);
+}
+
+@font-face { 
+	font-family: montserrat;
+	src: url(montserrat.eot);
+	src: url(montserrat.eot?#iefix) format(embedded-opentype),
+	     url(montserrat.woff) format(woff),
+	     url(montserrat.ttf) format(truetype),
+	     url(montserrat.svg#webfont) format(svg);
+}  
+------------------------------------ GRID --------------------------------------------------  
+body {
+	font-family: pacifico, regular; 
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0.2vw;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10vw min-content 5vw;
+	grid-template-areas: "header header"
+						 "main main"
+						 "footer footer";
+}
+p {
+	font-family: montserrat, alternates, Regular;
+}
+header {
+	grid-area: header;
+}
+main section {
+	grid-area: main;
+	display: flex;
+	flex-flow: row wrap;	
+	justify-content: space-around; 
+	color: white;
+}
+
+footer {
+	position: fixed; 
+	bottom: 0;
+	width: 100%;
+	grid-area: footer; 	
+	padding: 0.7vw;
+	margin: 0;
+	height: 12vh;
+	background-color: #cbb74d;
+	box-shadow: 10px 5px 5px 5px grey;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between; 
+}
+
+/*	 FLEX 	
+header nav {
+	width: 100%;
+	top: 0;
+	position: fixed!important;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.btnClientConnect {
+	top: 0; 
+	right: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	top: 10vh;
+	width: 18vw;
+	height: 1.5vh;
+}
+	
+section img {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+   
+h1, h2, h3{
+	font-family: 'pacifico', regular;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+header img {
+	width: 10vw;
+	height: 13vh;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+article {
+	font-family: 'pacifico', regular;
+	text-align: center;
+	box-shadow: 10px 5px 5px grey;
+	height: 6vw;
+	line-height: 6vw;
+	font-size: 1.5vw;
+	flex-grow: 1.5;
+}
+
+nav input { 
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+	box-shadow: 10px 5px 5px grey;
+	height: 6vw;
+	line-height: 6vw;
+	font-size: 1.5vw;
+	flex-grow: 1.5;
+}
+
+main img {
+	background-color: white;
+	box-shadow: 10px 5px 5px grey;
+	width: 17vw;
+	padding: 3vw;
+}
+
+form,#message {
+ 	width: 50vw;
+ 	padding: 2vw;
+ 	margin: 2vw;
+ 	box-shadow: white 2px 2px 2px 2px;
+ }
+
+form,input,#message {
+ 	justify-content: space-between; 
+	margin-bottom: 2vw;
+ }	
+  
+textarea {
+ 	width: 50vw;
+ 	margin-bottom: 2vw;
+ }
+
+form#userSign {
+ 	margin: 3vw;
+ 	padding: 1vw;
+	width: 40vw;
+	height: 50vh;
+	text-align: center;
+	box-shadow: white 2px 2px 2px 2px;
+ }
+
+form#userLog {
+ 	margin: 1vw;
+ 	padding: 1vw;
+	width: 40vw;
+	height: 40vh;
+	text-align: center;
+ 	box-shadow: white 2px 2px 2px 2px;
+ }
+*/
